@@ -1,0 +1,11 @@
+.ant-tabs {
+  overflow: inherit;
+  &.ant-tabs-small {
+    & .ant-tabs-bar {
+      margin: 0;
+      & .ant-tabs-nav-container {
+        font-size: x-small;
+      }
+    }
+  }
+}

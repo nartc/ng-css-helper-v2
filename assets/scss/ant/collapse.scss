@@ -1,0 +1,25 @@
+.controls-wrapper {
+  & .ant-collapse.ant-collapse-borderless {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.1);
+
+    & .controls-content.ant-collapse-item {
+      & .ant-collapse-header {
+        text-align: left;
+        font-size: x-small;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      }
+
+      & .ant-collapse-content {
+        font-size: x-small;
+        overflow: inherit;
+      }
+    }
+  }
+}
